@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `price_history`
 --
 
-CREATE TABLE `price_history` (
+CREATE TABLE `price_histoy` (
   `id` int(11) NOT NULL,
   `trading_pair` varchar(20) NOT NULL,
   `open_price` decimal(20,8) NOT NULL,
