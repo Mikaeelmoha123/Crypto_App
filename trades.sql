@@ -66,7 +66,7 @@ ALTER TABLE `trades`
 --
 -- AUTO_INCREMENT for table `trades`
 --
-ATER TABLE `trades`
+ALTER TABLE `trades`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
