@@ -6,7 +6,7 @@ try {
     echo "<h2>✅ Database Connection Successful!</h2>";
     
     // Test query
-    $stmt = $pd->query("SELECT COUNT(*) as user_count FROM users");
+    $stmt = $pdo->query("SELECT COUNT(*) as user_count FROM users");
     $result = $stmt->fetch();
     echo "<p>Users in database: " . $result['user_count'] . "</p>";
     
