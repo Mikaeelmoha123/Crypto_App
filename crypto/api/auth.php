@@ -1,4 +1,4 @@
-<?ph
+<?phpp
 require_once 'config.php';
 
 setCORSHeaders();
