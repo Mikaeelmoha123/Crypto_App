@@ -1,4 +1,4 @@
-<?php
+<?p
 require_once 'api/config.php';
 
 try {
