@@ -1,4 +1,4 @@
-hp<?php
+php<?php
 require_once 'api/config.php';
 
 try {
@@ -25,5 +25,6 @@ try {
     echo "<p>Error: " . $e->getMessage() . "</p>";
 }
 ?>
+
 
 
